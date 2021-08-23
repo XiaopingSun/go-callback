@@ -1,0 +1,14 @@
+runMode: release
+server:
+  HttpPort: 8080
+  readTimeOut: 10
+  writeTimeOut: 10
+database:
+  type: mysql
+  user: root
+  password: 348521409
+  host: mysql
+  dbname: qiniu
+  network: tcp
+  port: 3306
+logPath: logfile/
